@@ -1,0 +1,19 @@
+@import "tailwindcss";
+@import "@fontsource/vazirmatn/400.css";
+@import "@fontsource/vazirmatn/700.css";
+@import "@fontsource/inter/400.css";
+@import "@fontsource/inter/700.css";
+
+body {
+  font-family: "Vazirmatn", "Inter", sans-serif;
+}
+:root {
+  --spacing: 4px;
+}
+
+/* html, body{
+  height: 100%;
+  background-color: #f9fafb;
+  font-family: sans-serif;
+  direction: rtl;
+} */
