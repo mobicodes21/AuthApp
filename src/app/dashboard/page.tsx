@@ -26,7 +26,6 @@ export default function DashboardPage() {
     <main className="min-h-screen p-4 sm:p-6 bg-gradient-to-tr from-[#FFB6C1] via-[#C480FF] to-[#9D7CFF] flex items-center justify-center">
       <div className="w-full max-w-md sm:max-w-2xl bg-white/90 backdrop-blur-sm p-6 sm:p-8 rounded-3xl shadow-2xl">
         <div className="flex flex-col sm:flex-row items-center gap-4 sm:gap-6 text-center sm:text-left">
-
           <Image
             src={user.picture}
             alt={`avatar of ${user.name}`}
@@ -36,15 +35,16 @@ export default function DashboardPage() {
             className="w-24 h-24 rounded-full border-4 border-[#D97CFF]"
           />
 
-
           <div className="flex flex-col justify-center items-center sm:items-start">
-<h2 className="text-xl sm:text-2xl font-extrabold text-[#9D7CFF] leading-snug text-center">
-  <span>
-    {user.name} عزیز، خوش اومدی
-    <span className="animate-pulse">✨</span>
-  </span>
-</h2>
-            <p className="text-gray-700/90 mt-1 text-sm sm:text-base">{user.email}</p>
+            <h2 className="text-xl sm:text-2xl font-extrabold text-[#9D7CFF] leading-snug text-center">
+              <span>
+                {user.name} عزیز، خوش اومدی
+                <span className="animate-pulse">✨</span>
+              </span>
+            </h2>
+            <p className="text-gray-700/90 mt-1 text-sm sm:text-base">
+              {user.email}
+            </p>
           </div>
         </div>
 
