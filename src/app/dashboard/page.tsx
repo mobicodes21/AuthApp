@@ -32,6 +32,7 @@ export default function DashboardPage() {
             alt={`avatar of ${user.name}`}
             width={80}
             height={80}
+            unoptimized
             className="w-20 h-20 rounded-full border-4 border-[#D97CFF]"
           />
           <div>
