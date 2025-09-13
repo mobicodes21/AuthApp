@@ -2,8 +2,7 @@
 
 A simple client-side authentication flow built with Next.js (App Router) + TypeScript + Tailwind CSS + shadcn/ui.
 
-🔗 Live Demo: Click here to view
-
+🔗 Live Demo: [Click here to view](https://auth-app-xqyl.vercel.app/login)
 
 ---
 
@@ -54,8 +53,8 @@ src/
 ⚙️ Getting Started
 
 # 1. Clone repo
-git clone https://github.com/YOUR-USERNAME/auth-app.git
-cd auth-app
+git clone https://github.com/mobicodes21/AuthApp.git
+cd AuthApp
 
 # 2. Install dependencies
 npm install
@@ -74,4 +73,4 @@ http://localhost:3000/login
 Deployed on Vercel.
 👉 Replace the link here with your live app:
 
-🔗 Live Demo: [Click here to view](https://YOUR-VERCEL-LINK.vercel.app)
+🔗 Live Demo: [Click here to view](https://auth-app-xqyl.vercel.app/login)
