@@ -38,10 +38,12 @@ export default function DashboardPage() {
 
 
           <div className="flex flex-col justify-center items-center sm:items-start">
-            <h2 className="text-xl sm:text-2xl font-extrabold text-[#9D7CFF] leading-snug flex items-center gap-1 sm:gap-2 animate-pulse">
-              {user.name} عزیز، خوش اومدی✨
-              <span className=""></span>
-            </h2>
+<h2 className="text-xl sm:text-2xl font-extrabold text-[#9D7CFF] leading-snug text-center">
+  <span>
+    {user.name} عزیز، خوش اومدی
+    <span className="animate-pulse">✨</span>
+  </span>
+</h2>
             <p className="text-gray-700/90 mt-1 text-sm sm:text-base">{user.email}</p>
           </div>
         </div>
