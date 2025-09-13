@@ -1,36 +1,77 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+📱 AuthApp – Client-side Authentication
 
-## Getting Started
+A simple client-side authentication flow built with Next.js (App Router) + TypeScript + Tailwind CSS + shadcn/ui.
 
-First, run the development server:
+🔗 Live Demo: Click here to view
 
-```bash
+
+---
+
+🚀 Features
+
+Login with Iranian mobile number (formats: 09xxxxxxxxx, +989xxxxxxxxx, 00989xxxxxxxxx)
+
+Fetch user data from randomuser.me API
+
+Save user info in localStorage
+
+Dashboard with personalized welcome
+
+Logout → clear storage + redirect to Login
+
+Route protection if no session
+
+Responsive design with Tailwind + shadcn/ui
+
+
+
+---
+
+📂 Project Structure
+
+src/
+  app/
+    layout.tsx
+    page.tsx
+    login/page.tsx
+    dashboard/page.tsx
+  components/
+    ui/
+      Input.tsx
+      Button.tsx
+  lib/
+    api.ts
+    phone.ts
+    storage.ts
+  types/
+    user.ts
+  styles/
+    globals.css
+
+
+---
+
+⚙️ Getting Started
+
+# 1. Clone repo
+git clone https://github.com/YOUR-USERNAME/auth-app.git
+cd auth-app
+
+# 2. Install dependencies
+npm install
+
+# 3. Run dev server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# 4. Open in browser
+http://localhost:3000/login
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+📦 Deployment
 
-To learn more about Next.js, take a look at the following resources:
+Deployed on Vercel.
+👉 Replace the link here with your live app:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+🔗 Live Demo: [Click here to view](https://YOUR-VERCEL-LINK.vercel.app)
